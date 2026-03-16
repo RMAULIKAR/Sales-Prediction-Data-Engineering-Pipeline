@@ -1,11 +1,4 @@
 
--- Create MySQL Database
-CREATE DATABASE sales_pipeline;
-
-USE sales_pipeline;
-
-
-
 -- BRONZE LAYER
 CREATE TABLE raw_sales (
     id INT AUTO_INCREMENT PRIMARY KEY,
