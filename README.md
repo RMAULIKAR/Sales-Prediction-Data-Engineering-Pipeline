@@ -21,11 +21,12 @@ This project was created to demonstrate **data engineering pipeline design and i
 Sales-Prediction-Data-Engineering-Pipeline
 │
 ├── config
-│   └── db_config.py              # Database configuration
+│   └── db_config.py            # Database configuration 
 │
-├── pipeline                     # Core pipeline modules
+├── pipeline                    # Core pipeline modules
 │   └── __init__.py
-│
+|   └── run_pipeline.py         # run_pipeline 
+|
 ├── scripts                      # Pipeline scripts
 │   ├── generate_sales_data.py    # Generate synthetic sales data
 │   ├── load_to_mysql.py          # Load raw data to MySQL
@@ -35,7 +36,8 @@ Sales-Prediction-Data-Engineering-Pipeline
 │   └── logger.py                 # Logging utility
 │
 ├── sql
-│   └── queries.sql               # SQL queries for database operations
+│   └── 01_create_db_sales_pipeline        # create database
+│   └── 02_create_tables                   # create_tables 
 │
 ├── requirements.txt              # Project dependencies
 └── .gitignore                    # Ignored files for Git
