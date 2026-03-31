@@ -11,7 +11,7 @@ The project focuses on **data pipeline design, modular code organization, and re
 
 ## Purpose
 
-This project was created to demonstrate **data engineering pipeline design and implementation
+This project was created to demonstrate **data engineering pipeline design and implementation**
 
 ---
 
